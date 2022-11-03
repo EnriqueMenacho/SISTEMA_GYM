@@ -23,5 +23,10 @@ namespace GYM_ADS
             form_home pantalla = new form_home();
             pantalla.Show();
         }
+
+        private void tabPage2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
