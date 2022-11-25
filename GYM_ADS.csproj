@@ -46,96 +46,97 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="form_asistencia.cs">
+    <Compile Include="Forms\form_asistencia.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="form_asistencia.Designer.cs">
+    <Compile Include="Forms\form_asistencia.Designer.cs">
       <DependentUpon>form_asistencia.cs</DependentUpon>
     </Compile>
-    <Compile Include="form_ficha.cs">
+    <Compile Include="Forms\form_ficha.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="form_ficha.Designer.cs">
+    <Compile Include="Forms\form_ficha.Designer.cs">
       <DependentUpon>form_ficha.cs</DependentUpon>
     </Compile>
-    <Compile Include="form_home.cs">
+    <Compile Include="Forms\form_home.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="form_home.Designer.cs">
+    <Compile Include="Forms\form_home.Designer.cs">
       <DependentUpon>form_home.cs</DependentUpon>
     </Compile>
-    <Compile Include="form_login.cs">
+    <Compile Include="Forms\form_login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="form_login.Designer.cs">
+    <Compile Include="Forms\form_login.Designer.cs">
       <DependentUpon>form_login.cs</DependentUpon>
     </Compile>
-    <Compile Include="form_cliente.cs">
+    <Compile Include="Forms\form_cliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="form_cliente.Designer.cs">
+    <Compile Include="Forms\form_cliente.Designer.cs">
       <DependentUpon>form_cliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="form_membresia.cs">
+    <Compile Include="Forms\form_membresia.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="form_membresia.Designer.cs">
+    <Compile Include="Forms\form_membresia.Designer.cs">
       <DependentUpon>form_membresia.cs</DependentUpon>
     </Compile>
-    <Compile Include="form_modificarCliente.cs">
+    <Compile Include="Forms\form_modificarCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="form_modificarCliente.Designer.cs">
+    <Compile Include="Forms\form_modificarCliente.Designer.cs">
       <DependentUpon>form_modificarCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="form_pagos.cs">
+    <Compile Include="Forms\form_pagos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="form_pagos.Designer.cs">
+    <Compile Include="Forms\form_pagos.Designer.cs">
       <DependentUpon>form_pagos.cs</DependentUpon>
     </Compile>
-    <Compile Include="form_reporte.cs">
+    <Compile Include="Forms\form_reporte.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="form_reporte.Designer.cs">
+    <Compile Include="Forms\form_reporte.Designer.cs">
       <DependentUpon>form_reporte.cs</DependentUpon>
     </Compile>
-    <Compile Include="form_rutinas.cs">
+    <Compile Include="Forms\form_rutinas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="form_rutinas.Designer.cs">
+    <Compile Include="Forms\form_rutinas.Designer.cs">
       <DependentUpon>form_rutinas.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="form_asistencia.resx">
+    <Compile Include="SQL\CONEXION.cs" />
+    <EmbeddedResource Include="Forms\form_asistencia.resx">
       <DependentUpon>form_asistencia.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="form_ficha.resx">
+    <EmbeddedResource Include="Forms\form_ficha.resx">
       <DependentUpon>form_ficha.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="form_home.resx">
+    <EmbeddedResource Include="Forms\form_home.resx">
       <DependentUpon>form_home.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="form_login.resx">
+    <EmbeddedResource Include="Forms\form_login.resx">
       <DependentUpon>form_login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="form_cliente.resx">
+    <EmbeddedResource Include="Forms\form_cliente.resx">
       <DependentUpon>form_cliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="form_membresia.resx">
+    <EmbeddedResource Include="Forms\form_membresia.resx">
       <DependentUpon>form_membresia.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="form_modificarCliente.resx">
+    <EmbeddedResource Include="Forms\form_modificarCliente.resx">
       <DependentUpon>form_modificarCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="form_pagos.resx">
+    <EmbeddedResource Include="Forms\form_pagos.resx">
       <DependentUpon>form_pagos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="form_reporte.resx">
+    <EmbeddedResource Include="Forms\form_reporte.resx">
       <DependentUpon>form_reporte.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="form_rutinas.resx">
+    <EmbeddedResource Include="Forms\form_rutinas.resx">
       <DependentUpon>form_rutinas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

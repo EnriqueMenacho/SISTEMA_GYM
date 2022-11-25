@@ -42,6 +42,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.btn_volver = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button5 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.cmb_ano = new System.Windows.Forms.ComboBox();
@@ -63,7 +64,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.hScrollBar1 = new System.Windows.Forms.HScrollBar();
-            this.button5 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -104,7 +104,7 @@
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(165, 361);
+            this.dataGridView2.Location = new System.Drawing.Point(290, 368);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(547, 190);
             this.dataGridView2.TabIndex = 26;
@@ -112,7 +112,7 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold);
-            this.button3.Location = new System.Drawing.Point(449, 277);
+            this.button3.Location = new System.Drawing.Point(574, 284);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(116, 45);
             this.button3.TabIndex = 19;
@@ -122,7 +122,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold);
-            this.button2.Location = new System.Drawing.Point(288, 277);
+            this.button2.Location = new System.Drawing.Point(413, 284);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(116, 45);
             this.button2.TabIndex = 20;
@@ -133,7 +133,7 @@
             // 
             this.textBox1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(221, 202);
+            this.textBox1.Location = new System.Drawing.Point(346, 209);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(456, 27);
             this.textBox1.TabIndex = 18;
@@ -144,7 +144,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(104, 204);
+            this.label3.Location = new System.Drawing.Point(229, 211);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(83, 25);
             this.label3.TabIndex = 17;
@@ -155,7 +155,7 @@
             // 
             this.txt_cedula.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_cedula.ForeColor = System.Drawing.Color.Black;
-            this.txt_cedula.Location = new System.Drawing.Point(221, 149);
+            this.txt_cedula.Location = new System.Drawing.Point(346, 156);
             this.txt_cedula.Name = "txt_cedula";
             this.txt_cedula.Size = new System.Drawing.Size(456, 27);
             this.txt_cedula.TabIndex = 18;
@@ -165,7 +165,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(104, 151);
+            this.label2.Location = new System.Drawing.Point(229, 158);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(95, 25);
             this.label2.TabIndex = 17;
@@ -176,7 +176,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(282, 52);
+            this.label1.Location = new System.Drawing.Point(407, 59);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(388, 32);
             this.label1.TabIndex = 15;
@@ -188,7 +188,7 @@
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(203, 61);
+            this.label9.Location = new System.Drawing.Point(328, 68);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(489, 32);
             this.label9.TabIndex = 16;
@@ -242,6 +242,22 @@
             this.tabPage2.Text = "MODIFICAR ASISTENCIA";
             this.tabPage2.UseVisualStyleBackColor = true;
             this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
+            // 
+            // button5
+            // 
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button5.Location = new System.Drawing.Point(6, 6);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(92, 78);
+            this.button5.TabIndex = 26;
+            this.button5.Text = "VOLVER";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // dataGridView1
             // 
@@ -783,22 +799,6 @@
             this.hScrollBar1.Name = "hScrollBar1";
             this.hScrollBar1.Size = new System.Drawing.Size(80, 17);
             this.hScrollBar1.TabIndex = 1;
-            // 
-            // button5
-            // 
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button5.Location = new System.Drawing.Point(6, 6);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(92, 78);
-            this.button5.TabIndex = 26;
-            this.button5.Text = "VOLVER";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // form_asistencia
             // 

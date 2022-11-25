@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GYM_ADS.SQL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,11 @@ namespace GYM_ADS
 {
     public partial class form_cliente : Form
     {
+
+
+
+
+
         public form_cliente()
         {
             InitializeComponent();
