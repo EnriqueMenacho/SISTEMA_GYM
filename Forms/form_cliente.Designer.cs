@@ -201,6 +201,7 @@
             this.tab_DP.Size = new System.Drawing.Size(786, 863);
             this.tab_DP.TabIndex = 0;
             this.tab_DP.Text = "DATOS PERSONALES";
+            this.tab_DP.Click += new System.EventHandler(this.tab_DP_Click);
             // 
             // btn_volver
             // 

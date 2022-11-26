@@ -106,6 +106,16 @@
     <Compile Include="Forms\form_rutinas.Designer.cs">
       <DependentUpon>form_rutinas.cs</DependentUpon>
     </Compile>
+    <Compile Include="general\Asistencias.cs" />
+    <Compile Include="general\Cliente.cs" />
+    <Compile Include="general\Fechas.cs" />
+    <Compile Include="general\Ficha.cs" />
+    <Compile Include="general\Foto.cs" />
+    <Compile Include="general\Membresia.cs" />
+    <Compile Include="general\Pagos.cs" />
+    <Compile Include="general\Reportes.cs" />
+    <Compile Include="general\Rutina.cs" />
+    <Compile Include="general\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SQL\CONEXION.cs" />
@@ -165,5 +175,6 @@
   <ItemGroup>
     <None Include="Resources\556-5564832_body-building-png-silhouette-arnold-schwarzenegger-logo-clipart.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,4 +1,6 @@
-﻿using GYM_ADS.SQL;
+﻿using GYM_ADS.general;
+using GYM_ADS.Properties;
+using GYM_ADS.SQL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,6 +16,24 @@ namespace GYM_ADS
     public partial class form_cliente : Form
     {
 
+        ConexionBD conexionBD;
+
+        private string cedula;
+        private string nombres;
+        private string apéllidos;
+        private string dir;
+        private string celular;
+        private string day,month,year;
+        private string fecha_fin;
+        string fecha_inicio;
+
+        Cliente cliente = new Cliente();
+        Ficha ficha = new Ficha();
+        Membresia membresia = new Membresia();
+        Pagos pagos = new Pagos();
+        Rutina rutina = new Rutina(); 
+
+
 
 
 
@@ -21,6 +41,7 @@ namespace GYM_ADS
         public form_cliente()
         {
             InitializeComponent();
+            
 
         }
 
@@ -182,6 +203,11 @@ namespace GYM_ADS
             this.Close();
             form_home pantalla = new form_home();
             pantalla.Show();
+
+        }
+
+        private void tab_DP_Click(object sender, EventArgs e)
+        {
 
         }
     }
